@@ -24,7 +24,6 @@
 		E4627A9F19D7DCD6006C377A /* blueDot.png in Resources */ = {isa = PBXBuildFile; fileRef = E4627A9E19D7DCD6006C377A /* blueDot.png */; };
 		E47A779D19D86C2200B6A5D8 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47A779C19D86C2200B6A5D8 /* ScoreViewController.swift */; };
 		E47A779F19D89E3800B6A5D8 /* MinigameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47A779E19D89E3800B6A5D8 /* MinigameViewController.swift */; };
-		E47A77A119D8CC4900B6A5D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E47A77A019D8CC4900B6A5D8 /* Default-568h@2x.png */; };
 		E47A77AF19D8DA3100B6A5D8 /* bluebgfinal.png in Resources */ = {isa = PBXBuildFile; fileRef = E47A77AD19D8DA3100B6A5D8 /* bluebgfinal.png */; };
 		E47A77B019D8DA3100B6A5D8 /* minigamebg.png in Resources */ = {isa = PBXBuildFile; fileRef = E47A77AE19D8DA3100B6A5D8 /* minigamebg.png */; };
 		E47A77B219D8EEF200B6A5D8 /* logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = E47A77B119D8EEF200B6A5D8 /* logo_small.png */; };
@@ -77,7 +76,6 @@
 		E4627A9E19D7DCD6006C377A /* blueDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueDot.png; sourceTree = "<group>"; };
 		E47A779C19D86C2200B6A5D8 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		E47A779E19D89E3800B6A5D8 /* MinigameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinigameViewController.swift; sourceTree = "<group>"; };
-		E47A77A019D8CC4900B6A5D8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E47A77AD19D8DA3100B6A5D8 /* bluebgfinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluebgfinal.png; sourceTree = "<group>"; };
 		E47A77AE19D8DA3100B6A5D8 /* minigamebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minigamebg.png; sourceTree = "<group>"; };
 		E47A77B119D8EEF200B6A5D8 /* logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_small.png; sourceTree = "<group>"; };
@@ -120,7 +118,6 @@
 		E4474FF419D65DA0000B8373 = {
 			isa = PBXGroup;
 			children = (
-				E47A77A019D8CC4900B6A5D8 /* Default-568h@2x.png */,
 				E4627A8E19D79080006C377A /* MapKit.framework */,
 				E4474FFF19D65DA0000B8373 /* Pandemic */,
 				E447501519D65DA0000B8373 /* PandemicTests */,
@@ -312,7 +309,6 @@
 				E4627A9C19D7D9C3006C377A /* greenDot.png in Resources */,
 				E4A61E5919D800CE005ABBB9 /* orangeDot.png in Resources */,
 				E47A77B819D8F2D900B6A5D8 /* radarGreen.png in Resources */,
-				E47A77A119D8CC4900B6A5D8 /* Default-568h@2x.png in Resources */,
 				E447500A19D65DA0000B8373 /* Images.xcassets in Resources */,
 				E47A77BA19D8F2D900B6A5D8 /* radarRed.png in Resources */,
 				E4A61E4919D7E82E005ABBB9 /* pandemiclogo.png in Resources */,
