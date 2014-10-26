@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:pandemic-v2.xcodeproj">
+      location = "self:Pandemic.xcodeproj">
    </FileRef>
 </Workspace>
