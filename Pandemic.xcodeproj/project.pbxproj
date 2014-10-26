@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C2F2F60D19D70F9B006CDD7B /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F2F60C19D70F9B006CDD7B /* MainPageViewController.swift */; };
+		E408D47C19FCB58300C78784 /* index.php in Resources */ = {isa = PBXBuildFile; fileRef = E408D47B19FCB58300C78784 /* index.php */; };
 		E447500319D65DA0000B8373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447500219D65DA0000B8373 /* AppDelegate.swift */; };
 		E447500519D65DA0000B8373 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447500419D65DA0000B8373 /* ViewController.swift */; };
 		E447500A19D65DA0000B8373 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E447500919D65DA0000B8373 /* Images.xcassets */; };
@@ -57,6 +58,7 @@
 		C2F2F60C19D70F9B006CDD7B /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		E408D47619FCB1C600C78784 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E408D47719FCB1C600C78784 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E408D47B19FCB58300C78784 /* index.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
 		E4474FFD19D65DA0000B8373 /* Pandemic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pandemic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E447500119D65DA0000B8373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E447500219D65DA0000B8373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,9 +118,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E408D47A19FCB58300C78784 /* ServerSideCode */ = {
+			isa = PBXGroup;
+			children = (
+				E408D47B19FCB58300C78784 /* index.php */,
+			);
+			path = ServerSideCode;
+			sourceTree = "<group>";
+		};
 		E4474FF419D65DA0000B8373 = {
 			isa = PBXGroup;
 			children = (
+				E408D47A19FCB58300C78784 /* ServerSideCode */,
 				E408D47619FCB1C600C78784 /* LICENSE */,
 				E408D47719FCB1C600C78784 /* README.md */,
 				E4627A8E19D79080006C377A /* MapKit.framework */,
@@ -293,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4A61E5F19D80201005ABBB9 /* trophyIcon.png in Resources */,
+				E408D47C19FCB58300C78784 /* index.php in Resources */,
 				E47A77AF19D8DA3100B6A5D8 /* bluebgfinal.png in Resources */,
 				E4A61E4F19D7F3DD005ABBB9 /* exit.png in Resources */,
 				E4A61E5D19D80201005ABBB9 /* mapIcon.png in Resources */,
